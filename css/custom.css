@@ -1,0 +1,156 @@
+.intro-img {
+  background-image: url('../media/bg1.jpg');
+  background-color: #edd0cc;
+  width: 800px;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media (max-width:768px) {
+  .intro-img {
+    width: 480px;
+    height: 480px;
+  }
+}
+
+@media (max-width:480px) {
+  .intro-img {
+    width: 336px;
+    height: 336px;
+  }
+}
+
+.audio-player {
+  max-width: 336px;
+}
+
+body {
+  color: #888;
+  background-color: #fff;
+}
+
+.intro-wrapper {
+  background-color: #edd0cc;
+}
+
+
+.intro-title {
+  color: #000;
+  border-color: #FFF;
+  text-shadow: -1px 0 1px #FFF;
+}
+
+.intro-description {
+  color: #000;
+}
+
+
+
+#navigation {
+  background-color: #fff;
+}
+
+.nav.navbar-nav {
+  background-color: #fff;
+}
+
+
+a,a:hover {
+	color: #edd0cc;
+}
+
+.intro .page-scroll a {
+        color: #aaaaaa;
+	
+}
+
+.intro .page-scroll a:hover {
+	color: #edd0cc;
+}
+
+.icon:hover .fa{
+	color: #edd0cc;
+}
+
+ul.nav li a:hover {
+	color: #edd0cc;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+    background-color: #edd0cc;
+}
+
+.bg-skin {
+	background: #edd0cc;
+}
+
+form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
+	border-color: #edd0cc;
+}
+
+footer {
+    background-color: #edd0cc;
+}
+
+footer p {
+	color: #122F33;
+}
+
+footer a {
+	color: #122F33;
+}
+
+footer a:hover {
+	color: #324F53;
+}
+
+.btn-skin {
+  color: #fff;
+  background-color: #edd0cc;
+  border-color: #edd0cc;
+}
+
+a .basic-color, a:hover .basic-color, a:active .basic-color, a:visited .basic-color {
+  color: #888;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px #fff;
+    color: #122F33;
+    background: #fff;
+}
+
+
+/* ==========================
+Parallax
+============================= */
+
+#separator {	
+	background-image: url(../media/parallax-bg.jpg);
+}
+
+#separator .icon {
+	margin-bottom: 20px;
+}
+
+#separator span {
+	color: #fff;
+}
+
+#separator:after {	
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	opacity: 0.7;
+	z-index: -1;
+}
